@@ -14,5 +14,11 @@ def isLesser(firstNumber, secondNumber):
     else:
         print("Second number is less than the first")
 
+def isequal(firstNumber, secondNumber):
+    if firstNumber == secondNumber:
+        print("First and second number are equal")
+
+
 isGreater(firstNum, secNum)
 isLesser(firstNum, secNum)
+isequal(firstNum, secNum)
