@@ -18,7 +18,13 @@ def isequal(firstNumber, secondNumber):
     if firstNumber == secondNumber:
         print("First and second number are equal")
 
+def isDouble(firstNumber,secondNumber):
+    if firstNumber * 2 == secondNumber:
+        print("Second number is double of first")
+    else:
+        print("Second number is not double of first")
 
 isGreater(firstNum, secNum)
 isLesser(firstNum, secNum)
 isequal(firstNum, secNum)
+isDouble(firstNum, secNum)
